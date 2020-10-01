@@ -1,0 +1,22 @@
+.form-field {
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .create {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 110px;
+  }
+  
+  button {
+    padding: 7px;
+    margin: 5px;
+  }
+  

@@ -1,0 +1,18 @@
+.ticket-detail {
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    margin-top: 30px;
+  }
+  
+  .description {
+    margin-left: -40px;
+  }
+  .complete {
+    margin-left: 40px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
