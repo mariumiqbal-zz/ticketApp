@@ -57,7 +57,7 @@ class CreateTicket extends Component {
       <div className="App">
         <form className="form-field">
           <div>
-            <label for="Description">Ticket Description:</label>
+            <label htmlFor="Description">Ticket Description:</label>
             <input
               type="text"
               id="Description"
@@ -69,7 +69,7 @@ class CreateTicket extends Component {
           </div>
 
           <div>
-            <label for="assigneeId">Assigned User </label>
+            <label htmlFor="assigneeId">Assigned User </label>
             <select id="assigneeId" name="assigneeId">
               {this.props.userList.map((user) => {
                 return <option> {user.name}</option>;
